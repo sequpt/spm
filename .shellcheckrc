@@ -2,6 +2,7 @@
 shell=sh
 # Let shellcheck access sourced files
 external-sources=true
+source-path=SCRIPTDIR/../src/lib
 # Additional checks
 # See https://github.com/koalaman/shellcheck/wiki/optional
 enable=add-default-case           # Suggest adding a default case in `case` statements
